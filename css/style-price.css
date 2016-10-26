@@ -6,7 +6,7 @@ body {
 	font-style: normal;
 	color: #000000;
 	font-family: "PT Sans Narrow", "Arial", serif;
-	line-height: 20px;
+	line-height: 24px;
 
 }
 .container {
@@ -24,7 +24,16 @@ header {
 
 h2 {
 	font-size: 30px;
+	line-height: 42px;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+
+}
+
+h3 {
 	font-size: 24px;
+	line-height: 30px;
 	font-weight: bold;
 	font-style: normal;
 	color: #000000;

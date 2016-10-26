@@ -9,7 +9,15 @@ body {
 	line-height: 24px;
 
 }
+.container {
+	width:auto;
+}
+
 h2 {
 	font-size: 30px;
 	line-height: 42px;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	font-family: "PT Sans Narrow", "Arial", serif;
 }
