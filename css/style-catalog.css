@@ -1,24 +1,74 @@
+html,
 body {
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	min-width: 1200px;
 	font-size: 14px;
 	font-weight: bold;
 	font-style: normal;
 	color: #000000;
 	font-family: "PT Sans Narrow", "Arial", serif;
 	line-height: 20px;
+	text-transform: uppercase;
+
+
 }
 .container {
-	width:auto;
+    width: 960px;
+    margin: 0 auto;
+    padding: o 10px;
+   
+
+}
+.clearfix::after {
+  content: "";
+
+  display: block;
+  clear: both;
 }
 
+/*HEADER*/
+
 header {
-	height: 72px;
-	font-size: 16px;
-	font-weight: bold;
-	font-style: normal;
 	background-color: #000000;
 	color: #ffffff;
+	margin-bottom: 60px;
+}
+
+div.logo {
+	width: 112px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 35px;
+	padding-left: 30px;
+}
+nav.main-menu {
+	width: 530px;
+	float: left;
+	padding-top: 10px;
+
+}
+nav.main-menu li {
+	display: inline-block;
+}
+nav.main-menu a {
+	color: #ffffff;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+div.entrance {
+	width: 90px;
+	float: right;
+	padding-top: 23px;
+}
+div.entrance a{
+	color: #ffffff;
+	text-decoration: none;
 }
 
 h1 {
@@ -38,11 +88,94 @@ h2 {
 	font-style: normal;
 	color: #000000;
 }
+
+/*MAIN*/
+
+ui.menu-item {
+	width: 310px;
+	margin: 0;
+	padding: 0;
+}
+li.menu-link {
+	display: inline-block;
+	padding-right: 30px;
+}
+li.menu-link a {
+   color: #000000;
+	text-decoration: none;
+}
+
+li:last-chold .menu-link {
+	padding-right: 0;
+}
+form {
+	width: 175px;
+	float: left;
+
+}
+
+input[type="radio"] {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    display: block;
+    padding-top: 10px;
+}
+
+section.choice-goods {
+	width: 720px;
+	float: right;
+}
+article {
+	width: 220px;
+	display: inline-block;
+	padding-right: 20px;
+	vertical-align: top;
+	padding-bottom: 45px;
+}
+
+article:nth-child(3),
+article:nth-child(6) {
+	padding-right: 0;
+
+}
+
 article h1 {
-	font-family: "PT Sans Narrow", "Arial", serif;
 	font-size: 14px;
 	line-height: 18px;
-	font-weight: bold;
-	font-style: normal;
-	color: #000000;
+}
+
+div.btn {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 45px;
+}
+/*FOOTER*/
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	margin-top: 140px; 
+}
+.footer-contacts {
+    width: 330px;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer-social {
+	width: 160px;
+	float: left;
+	 padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer-copyright {
+	width: 160px;
+	float: right;
+	 padding-top: 60px;
+    padding-bottom: 40px;
 }

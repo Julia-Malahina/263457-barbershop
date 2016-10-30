@@ -1,31 +1,145 @@
+html,
 body {
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	min-width: 1200px;
 	font-size: 14px;
 	font-weight: bold;
 	font-style: normal;
 	color: #000000;
 	font-family: "PT Sans Narrow", "Arial", serif;
 	line-height: 20px;
+	text-transform: uppercase;
 
 }
 .container {
-	width:auto;
+    width: 960px;
+    margin: 0 auto;
+    padding: o 10px;
 }
 
+.clearfix::after {
+  content: "";
+
+  display: block;
+  clear: both;
+}
+
+/*HEADER*/
+
 header {
-	height: 72px;
-	font-size: 16px;
-	font-weight: bold;
-	font-style: normal;
 	background-color: #000000;
 	color: #ffffff;
+	margin-bottom: 45px;
 }
 
 h2 {
 	font-size: 30px;
-	font-size: 24px;
+	line-height: 42px;
 	font-weight: bold;
 	font-style: normal;
 	color: #000000;
+	
+}
+div.logo {
+	width: 112px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 35px;
+	padding-left: 30px;
+}
+
+nav.main-menu {
+	width: 530px;
+	float: left;
+	padding-top: 10px;
+
+}
+nav.main-menu li {
+	display: inline-block;
+}
+nav.main-menu a {
+	color: #ffffff;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+div.entrance {
+	width: 90px;
+	float: right;
+	padding-top: 23px;
+}
+div.entrance a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*MAIN*/
+div.title {
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 48px;
+	margin: 0 auto;
+}
+
+main {
+	margin-bottom: 45px;
+}
+
+ul.menu-item {
+	width: 640px;
+	margin: 0;
+	margin-top: 25px;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.menu-item li {
+     display: inline-block;
+}
+
+.menu-item li a {
+	color: #000000;
+	text-decoration: none;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+section.column-left {
+	width: 490px;
+	float: left;
+}
+section.column-right {
+	width: 410px;
+	float: right;
+	margin-top: 80px;
+}
+
+/*FOOTER*/
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	margin-top: 140px; 
+}
+.footer-contacts {
+    width: 330px;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer-social {
+	width: 160px;
+	float: left;
+	 padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer-copyright {
+	width: 160px;
+	float: right;
+	 padding-top: 60px;
+    padding-bottom: 40px;
 }
