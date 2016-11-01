@@ -5,16 +5,11 @@ body {
 }
 
 body {
-	min-width: 1200px;
-	font-size: 14px;
-	font-weight: bold;
-	font-style: normal;
+	font: bold 14px/24px "PT Sans Narrow", "Arial", serif;
 	color: #000000;
-	font-family: "PT Sans Narrow", "Arial", serif;
-	line-height: 20px;
-	text-transform: uppercase;
-
+    text-transform: uppercase;
 }
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -37,65 +32,85 @@ header {
 }
 
 h2 {
-	font-size: 30px;
-	line-height: 42px;
-	font-weight: bold;
-	font-style: normal;
-	color: #000000;
-	
+	font: bold 30px/42px "PT Sans Narrow", "Arial", serif;
+	margin: 0 0 16px 0;
+	padding: 0;
+	width: 595px;
 }
+
 div.logo {
 	width: 112px;
 	float: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 35px;
-	padding-left: 30px;
+	margin: 20px 40px 20px 0px;
 }
 
-nav.main-menu {
-	width: 530px;
+.main-menu {
+	width: 510px;
 	float: left;
-	padding-top: 10px;
+	padding: 0;
+	margin: 0;
 
 }
-nav.main-menu li {
-	display: inline-block;
+
+.main-menu ul {
+	padding: 0;
+	margin:  25px 0 25px 0;
 }
-nav.main-menu a {
+
+.main-menu li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+
+}
+
+.main-menu a {
+	padding: 0;
+	margin: 0;
 	color: #ffffff;
 	text-decoration: none;
-	padding-right: 20px;
+
+}
+
+.main-menu a:nth-child(1),
+.main-menu a:nth-child(2),
+.main-menu a:nth-child(3),
+.main-menu a:nth-child(4) { 
+	padding-right: 35px;
+
 }
 
 div.entrance {
-	width: 90px;
+	width: 75px;
 	float: right;
-	padding-top: 23px;
+	margin:  25px 0 25px 0;
 }
+
+/*div.entrance::before {
+	content: "";
+	position: relative;
+	background: url(img/icon-login.png);
+}*/
 div.entrance a{
 	color: #ffffff;
 	text-decoration: none;
 }
 
 /*MAIN*/
-div.title {
-	font-size: 48px;
-	font-weight: bold;
-	line-height: 48px;
-	margin: 0 auto;
-}
 
+.secondary-menu {
+	width: 630px;
+	padding: 0;
+	margin: 0 0 60px 0;
+	float: left;
+}
 main {
-	margin-bottom: 45px;
+	
 }
 
 ul.menu-item {
-	width: 640px;
-	margin: 0;
-	margin-top: 25px;
-	padding: 0;
-	margin-bottom: 30px;
+	margin: 0px 0 0px 0px;
+	padding: 0px;
 }
 
 .menu-item li {
@@ -105,25 +120,48 @@ ul.menu-item {
 .menu-item li a {
 	color: #000000;
 	text-decoration: none;
-	padding-right: 30px;
-	margin-bottom: 30px;
+	padding-right: 32px;
+	
 }
+
 section.column-left {
 	width: 490px;
 	float: left;
+	margin: 0;
+	padding: 0;
+
 }
 section.column-right {
 	width: 410px;
 	float: right;
-	margin-top: 80px;
+	margin: 0;
+	padding: 0;
+}
+span {
+	margin: 0;
+	padding: 0;
 }
 
+p.text-item {
+	margin: 43px 0 0 0;
+	padding: 0;
+
+}
+div.price {
+	margin: 45px 0 67px  0;
+	padding: 0;
+}
+
+.description-item {
+	margin: 0;
+	padding: 0;
+}
 /*FOOTER*/
 
 footer {
 	background-color: #000000;
 	color: #ffffff;
-	margin-top: 140px; 
+	margin: 50px 0 0 0; 
 }
 .footer-contacts {
     width: 330px;

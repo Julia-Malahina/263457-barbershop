@@ -5,13 +5,8 @@ body {
 }
 
 body {
-	min-width: 1200px;
-	font-size: 14px;
-	font-weight: bold;
-	font-style: normal;
+	font: bold 14px/20px "PT Sans Narrow", "Arial", serif;
 	color: #000000;
-	font-family: "PT Sans Narrow", "Arial", serif;
-	line-height: 20px;
 	text-transform: uppercase;
 
 
@@ -30,75 +25,105 @@ body {
   clear: both;
 }
 
+h1 {
+	font: bold 30px/42px "PT Sans Narrow", "Arial", serif;
+	color: #000000;
+	margin: 0 0 16px 0;
+	padding: 0;
+}
+
+h2 {
+	font: bold 24px/30px "PT Sans Narrow", "Arial", serif;
+	color: #000000;
+	margin: 0 0 35px 0;
+	padding: 0;
+}
+
 /*HEADER*/
 
 header {
 	background-color: #000000;
 	color: #ffffff;
-	margin-bottom: 60px;
+	margin: 0 0 60px 0;
 }
 
 div.logo {
 	width: 112px;
 	float: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 35px;
-	padding-left: 30px;
+	margin: 20px 40px 20px 0px;
 }
-nav.main-menu {
-	width: 530px;
+
+.main-menu {
+	width: 510px;
 	float: left;
-	padding-top: 10px;
+	padding: 0;
+	margin: 0;
 
 }
-nav.main-menu li {
-	display: inline-block;
+
+.main-menu ul {
+	padding: 0;
+	margin:  25px 0 25px 0;
 }
-nav.main-menu a {
+
+.main-menu li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+
+}
+
+.main-menu a {
+	padding: 0;
+	margin: 0;
 	color: #ffffff;
 	text-decoration: none;
-	padding-right: 20px;
+
+}
+
+.main-menu a:nth-child(1),
+.main-menu a:nth-child(2),
+.main-menu a:nth-child(3),
+.main-menu a:nth-child(4) { 
+	padding-right: 35px;
+
 }
 
 div.entrance {
-	width: 90px;
+	width: 75px;
 	float: right;
-	padding-top: 23px;
+	margin:  25px 0 17px 0;
 }
+
+/*div.entrance::before {
+	content: "";
+	position: relative;
+	background: url(img/icon-login.png);
+}*/
 div.entrance a{
 	color: #ffffff;
 	text-decoration: none;
 }
 
-h1 {
-	font-family: "PT Sans Narrow", "Arial", serif;
-	font-size: 30px;
-	line-height: 42px;
-	font-weight: bold;
-	font-style: normal;
-	color: #000000;
-}
 
-h2 {
-	font-family: "PT Sans Narrow", "Arial", serif;
-	font-size: 24px;
-	line-height: 30px;
-	font-weight: bold;
-	font-style: normal;
-	color: #000000;
-}
 
 /*MAIN*/
 
-ui.menu-item {
-	width: 310px;
+.secondary-menu {
+	width: 300px;
 	margin: 0;
 	padding: 0;
 }
+
+.menu-item {
+	margin: 0 0 45px 0;
+	padding: 0;
+}
+
 li.menu-link {
 	display: inline-block;
-	padding-right: 30px;
+	margin: 0;
+	padding: 0 26px 0 0;
 }
 li.menu-link a {
    color: #000000;
@@ -106,34 +131,101 @@ li.menu-link a {
 }
 
 li:last-chold .menu-link {
-	padding-right: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.form-directory {
+	width: 240px;
+	margin: 0;
+	padding: 0;
+
 }
 form {
 	width: 175px;
+	
+	margin: 0 auto;
+	padding: 0;
 	float: left;
-
 }
 
-input[type="radio"] {
-    display: block;
-    margin-top: 10px;
+.sites-bar {
+	margin: 0 0 55px 0;
+	padding: 0;
 }
 
+.group-products {
+	margin: 0 0 50px 0;
+	padding: 0;
+}
+input[type="radio"],
 input[type="checkbox"] {
-    display: block;
-    padding-top: 10px;
+   width: auto;
+    padding: 10px 0 0 0;
 }
 
+label {
+    display: block;
+    width: auto;
+    padding: 0;
+}
+
+div.btn {
+	display: inline-block;
+    width: auto;
+    margin: 0 5px;
+    padding: 0;
+}
+
+div.btn a {
+	padding: 17px 28px;
+	color: #ffffff;
+    background: #000000;
+    border: none;
+    text-decoration: none;
+    font: bold 13px/18px "PT Sans Narrow", "Arial", serif;
+
+}
+
+.paginator {
+	width: 195px;
+	margin: 45px 0 0px 0;
+	padding: 0;
+	white-space: nowrap;
+    
+}
+
+.paginator a {
+	display: inline-block;
+	min-width: 44px;
+    height: 44px;
+    padding: 0;
+    margin: 0 7px 0 0;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font: bold 14px/18px "PT Sans Narrow", "Arial", serif;
+}
+
+.paginator a:hover {
+	background: #ffffff;
+    color: #000000;
+}
 section.choice-goods {
-	width: 720px;
+	width: 720px ;
+	margin: 0;
+	padding: 0;
 	float: right;
 }
 article {
 	width: 220px;
 	display: inline-block;
-	padding-right: 20px;
+	margin: 0;
+	padding: 0 20px 0 0;
 	vertical-align: top;
-	padding-bottom: 45px;
+	
 }
 
 article:nth-child(3),
@@ -146,20 +238,13 @@ article h1 {
 	font-size: 14px;
 	line-height: 18px;
 }
-
-div.btn {
-	display: block;
-	width: 200px;
-	margin: 0 auto;
-	padding: 0;
-	padding-top: 45px;
-}
 /*FOOTER*/
 
 footer {
 	background-color: #000000;
 	color: #ffffff;
-	margin-top: 140px; 
+	margin: 50px 0 0 0; 
+	padding: 0;
 }
 .footer-contacts {
     width: 330px;
