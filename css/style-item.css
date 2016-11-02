@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "PT Sans Narrow";
+  src:
+    local("PT Sans Narrow-Regular"),
+    url("fonts/ptsansnarrow.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 html,
 body {
 	margin: 0;
@@ -5,7 +13,7 @@ body {
 }
 
 body {
-	font: bold 14px/24px "PT Sans Narrow", "Arial", serif;
+	font: bold 16px/20px "PT Sans Narrow", "Arial", serif;
 	color: #000000;
     text-transform: uppercase;
 }
@@ -13,7 +21,7 @@ body {
 .container {
     width: 960px;
     margin: 0 auto;
-    padding: o 10px;
+   
 }
 
 .clearfix::after {
@@ -38,10 +46,10 @@ h2 {
 	width: 595px;
 }
 
-div.logo {
+.logo {
 	width: 112px;
 	float: left;
-	margin: 20px 40px 20px 0px;
+	margin: 20px 37px 25px 0px;
 }
 
 .main-menu {
@@ -54,7 +62,7 @@ div.logo {
 
 .main-menu ul {
 	padding: 0;
-	margin:  25px 0 25px 0;
+	margin:  20px 0 25px 0;
 }
 
 .main-menu li {
@@ -76,7 +84,7 @@ div.logo {
 .main-menu a:nth-child(2),
 .main-menu a:nth-child(3),
 .main-menu a:nth-child(4) { 
-	padding-right: 35px;
+	margin: 0 35px 0 0;
 
 }
 

@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "PT Sans Narrow";
+  src:
+    local("PT Sans Narrow-Regular"),
+    url("fonts/ptsansnarrow.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,
 body {
 	margin: 0;

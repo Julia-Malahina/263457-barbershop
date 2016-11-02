@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "PT Sans Narrow";
+  src:
+    local("PT Sans Narrow-Regular"),
+    url("fonts/ptsansnarrow.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,
 body {
 	margin: 0;
@@ -47,10 +56,10 @@ header {
 	margin: 0 0 60px 0;
 }
 
-div.logo {
+.logo {
 	width: 112px;
 	float: left;
-	margin: 20px 40px 20px 0px;
+	margin: 20px 37px 25px 0px;
 }
 
 .main-menu {
@@ -197,7 +206,7 @@ div.btn a {
 
 .paginator a {
 	display: inline-block;
-	min-width: 44px;
+	width: 44px;
     height: 44px;
     padding: 0;
     margin: 0 7px 0 0;
