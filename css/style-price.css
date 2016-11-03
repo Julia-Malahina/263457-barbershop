@@ -1,8 +1,10 @@
 @font-face {
   font-family: "PT Sans Narrow";
   src:
-    local("PT Sans Narrow-Regular"),
-    url("fonts/ptsansnarrow.woff") format("woff");
+   url("../fonts/PTSans/PTN57F.ttf") format("truetype"),
+    url("../fonts/PTSans/PTN77F.ttf") format("truetype"),
+    url("../fonts/PTSans/PTS55F.ttf") format("truetype"),
+     url("../fonts/PTSans/PTS75F.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -14,12 +16,12 @@ body {
 }
 
 body {
-	font: bold 14px/20px "PT Sans Narrow", "Arial", serif;
+	font: bold 14px/24px "PT Sans Narrow", "Arial", serif;
 	color: #000000;
 	text-transform: uppercase;
 }
 
-h2 {
+h1 {
 	font: bold 30px/42px "PT Sans Narrow", "Arial", serif;
     color: #000000;
 	text-transform: uppercase;
@@ -42,20 +44,22 @@ h2 {
 }
 /*HEADER*/
 
+/*HEADER*/
+
 header {
 	background-color: #000000;
 	color: #ffffff;
 	margin: 0 0 60px 0;
 }
 
-div.logo {
+.logo {
 	width: 112px;
 	float: left;
-	margin: 20px 40px 20px 0px;
+	margin: 20px 37px 25px 0px;
 }
 
 .main-menu {
-	width: 510px;
+	width: 540px;
 	float: left;
 	padding: 0;
 	margin: 0;
@@ -75,6 +79,7 @@ div.logo {
 }
 
 .main-menu a {
+	font: bold 16px/20px "PT Sans Narrow", "Arial", "sans-serif";
 	padding: 0;
 	margin: 0;
 	color: #ffffff;
@@ -86,14 +91,14 @@ div.logo {
 .main-menu a:nth-child(2),
 .main-menu a:nth-child(3),
 .main-menu a:nth-child(4) { 
-	padding-right: 35px;
+	padding: 0 35px 0 0;
 
 }
 
 div.entrance {
 	width: 75px;
 	float: right;
-	margin:  25px 0 25px 0;
+	margin:  22px 18px 0 0;
 }
 
 /*div.entrance::before {
@@ -101,7 +106,8 @@ div.entrance {
 	position: relative;
 	background: url(img/icon-login.png);
 }*/
-div.entrance a{
+div.entrance a {
+	font: bold 16px/20px "PT Sans Narrow", "Arial", "sans-serif";
 	color: #ffffff;
 	text-decoration: none;
 }

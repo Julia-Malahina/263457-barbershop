@@ -1,10 +1,13 @@
-@font-face {
-  font-family: "PT Sans Narrow";
+/*@font-face {
+  font-family: "PT Sans Narrow", "sans-serif";
   src:
-    url("fonts/ptsansnarrow.woff") format("woff");
+   url("../fonts/PTSans/PTN57F.ttf") format("truetype"),
+    url("../fonts/PTSans/PTN77F.ttf") format("truetype"),
+    url("../fonts/PTSans/PTS55F.ttf") format("truetype"),
+     url("../fonts/PTSans/PTS75F.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 html,
 body {
@@ -13,7 +16,7 @@ body {
 }
 
 body {
-	font: bold 14px/20px "PT Sans Narrow", "Arial", serif;
+	font: bold 14px/18px "PT Sans Narrow", "Arial", "sans-serif";
 	color: #000000;
 	text-transform: uppercase;
 
@@ -34,14 +37,14 @@ body {
 }
 
 h1 {
-	font: bold 30px/42px "PT Sans Narrow", "Arial", serif;
+	font: bold 30px/42px "PT Sans Narrow", "Arial", "PT Sans Narrow", "Arial", "sans-serif";
 	color: #000000;
 	margin: 0 0 16px 0;
 	padding: 0;
 }
 
 h2 {
-	font: bold 24px/30px "PT Sans Narrow", "Arial", serif;
+	font: bold 24px/30px "PT Sans Narrow", "Arial", "PT Sans Narrow", "Arial", "sans-serif";
 	color: #000000;
 	margin: 0 0 35px 0;
 	padding: 0;
@@ -62,7 +65,7 @@ header {
 }
 
 .main-menu {
-	width: 510px;
+	width: 540px;
 	float: left;
 	padding: 0;
 	margin: 0;
@@ -82,6 +85,7 @@ header {
 }
 
 .main-menu a {
+	font: bold 16px/20px "PT Sans Narrow", "Arial", "sans-serif";
 	padding: 0;
 	margin: 0;
 	color: #ffffff;
@@ -93,14 +97,14 @@ header {
 .main-menu a:nth-child(2),
 .main-menu a:nth-child(3),
 .main-menu a:nth-child(4) { 
-	padding-right: 35px;
+	padding: 0 35px 0 0;
 
 }
 
 div.entrance {
 	width: 75px;
 	float: right;
-	margin:  25px 0 17px 0;
+	margin:  22px 18px 0 0;
 }
 
 /*div.entrance::before {
@@ -108,7 +112,8 @@ div.entrance {
 	position: relative;
 	background: url(img/icon-login.png);
 }*/
-div.entrance a{
+div.entrance a {
+	font: bold 16px/20px "PT Sans Narrow", "Arial", "sans-serif";
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -134,7 +139,8 @@ li.menu-link {
 	padding: 0 26px 0 0;
 }
 li.menu-link a {
-   color: #000000;
+	font: bold 14px/20px "PT Sans Narrow", "Arial", "sans-serif";
+    color: #000000;
 	text-decoration: none;
 }
 
@@ -191,7 +197,7 @@ div.btn a {
     background: #000000;
     border: none;
     text-decoration: none;
-    font: bold 13px/18px "PT Sans Narrow", "Arial", serif;
+    font: bold 13px/18px "PT Sans Narrow", "Arial", "sans-serif";
 
 }
 
@@ -214,7 +220,7 @@ div.btn a {
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
-    font: bold 14px/18px "PT Sans Narrow", "Arial", serif;
+    font: bold 14px/18px "PT Sans Narrow", "Arial", "sans-serif";
 }
 
 .paginator a:hover {
@@ -243,8 +249,7 @@ article:nth-child(6) {
 }
 
 article h1 {
-	font-size: 14px;
-	line-height: 18px;
+	font: bold 14px/18px "PT Sans Narrow", "Arial", "sans-serif";
 }
 /*FOOTER*/
 
